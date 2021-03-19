@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;  
+}
+
+/*__Menu-Section__*/
+
+.section-1{
+    position: absolute;
+    width: 100%;
+}
+
+@media only screen and (max-width:768px){
+    .nav-item a:hover{
+        border-bottom:none!important;
+        font-weight: bold;
+    }
+    .navbar-nav{
+        background-color:rgba(0,0,0,0.8);
+        width: 100%;
+    }   
+}
+
+.navbar-dark{
+    color: whitesmoke;
+}
+
+.navbar-nav{
+    margin-right: 70px;
+}
+
+.nav-link i{
+    padding: 5px;
+}
+
+.navbar-brand{
+    font-size: 30px!important;
+    font-weight: 500;
+    padding:10px;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+
+.nav-item a{
+    font-size: 20px;
+    font-weight: 400;
+    color:whitesmoke!important;
+}
+
+.nav-item a:hover{
+    border-bottom: whitesmoke 2px solid;
+    font-weight: bold;
+}
+
+/*__Home Section__*/
+.section2{
+   background-image: url("images/backgrounds/Parallax-1.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+   width: 100%;
+   background-attachment: fixed; 
+}
+
+/*__COlumn-1__*/
+.photo{
+    padding:220px;
+}
+.photo img{
+    height:350px;
+    width:350px;
+    border-radius: 50%;
+    border:2px solid whitesmoke;
+    padding: 10px;
+    box-shadow:  5px 10px 18px rgba(0,0,0,1);
+}
+
+/*__COlumn-2__*/
+.role{
+    padding:300px;
+}
+.name{
+    color: whitesmoke;
+    background-color: rgb(0,0,0,0.5);
+    box-shadow:  5px 10px 18px rgba(0,0,0,0.5);
+    padding: 15px 0 15px 10px;
+}
+.btn1{
+    text-decoration: none;
+    background-color: rgb(0,0,0,0.2);
+    border:2px solid whitesmoke;
+    color: whitesmoke;
+    padding:10px;
+    margin-top: 5px;
+}
+.btn1:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 600;
+}
+@media only screen and (max-width:993px){
+    .photo{
+        padding:100px;
+    }
+    .photo img{
+        height: 250px;
+        width: 250px;
+    }
+    .role{
+        padding:20px;
+    }
+}
+
+/*__About-Section__*/
+.section3{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+.about{
+    color: whitesmoke;
+}
+.about h1{
+    text-align: left;
+    padding: 20px;
+}
+.skill{
+    text-align: center;
+    padding-top: 10px;
+}
+.aboutimg{
+    height: 200px!important;
+    width: 250px;
+    padding:0 50 0 50px; 
+    margin-top: 10px;
+}
+.fig{
+    padding: 30px!important;
+}
+@media only screen and (max-width:450px){
+    .aboutimg{
+       padding: 0;
+    }
+}
+@media only screen and (max-width:320px){
+    .aboutimg{
+       padding: 0;
+    }
+}
+.figure-caption{
+    color: whitesmoke!important;
+    font-weight: 400;
+    font-size: 20px!important;
+    
+}
+.logos{
+    height:180px;
+    width: 120px;
+    padding:20px;
+}
+.modal-content{
+    box-shadow:5px 5px 20px grey;
+    color: black;
+}
+.modal-header{
+    border-bottom: solid 2px black!important;
+}
+.modal-body{
+    font-size: 23px;
+}
+.grade-font{
+    font-size: 16px!important;
+}
+.list li{
+    text-align: left;
+    padding: 10px;
+    font-size:20px;
+}
+
+/*__Projects-Section__*/
+.section4{
+    background-image: url(images/backgrounds/Parallax-2.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+}
+.projects{
+    color: whitesmoke;   
+}
+.project-content{
+    padding: 20px;    
+}
+.card-text{
+  padding-bottom: 15px;
+}
+.card-body{
+    background-color: black;
+    color: whitesmoke;
+}
+.card{
+   border:whitesmoke solid 2px!important;
+   box-shadow:5px 5px 20px #01479f;
+}
+
+/*__Contact-Section__*/
+.section5{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px;
+}
+header{
+    color: whitesmoke;
+}
+.w3-section{
+    color: #888787;
+    font-size:16px;
+}
+.w3-section i{
+    color: whitesmoke;
+}
+.section5 footer{
+    display: flex;
+}
+.section5 footer,i{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: whitesmoke;
+    margin-left:-10px!important;   
+}
+@media only screen and (max-width:470px){
+    .w3-section{
+        font-size:12px;
+    }
+}
+@media only screen and (max-width:381px){
+    .w3-section{
+        font-size:x-small;
+    }
+}
+.section5 footer i:hover{
+    font-size:3em;
+}
+
