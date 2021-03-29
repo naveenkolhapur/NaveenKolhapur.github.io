@@ -209,7 +209,8 @@ html,body{
     color: whitesmoke;   
 }
 .project-content{
-    padding: 20px;    
+    padding: 20px;
+    padding-left:20px!important;    
 }
 .card-text{
   padding-bottom: 15px;
@@ -221,6 +222,10 @@ html,body{
 .card{
    border:whitesmoke solid 2px!important;
    box-shadow:5px 5px 20px #01479f;
+}
+
+.quiztext{
+    padding: 1px!important;
 }
 
 /*__Contact-Section__*/
